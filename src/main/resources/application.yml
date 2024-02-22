@@ -1,0 +1,7 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: pogh
+  config:
+    import: optional:configserver:http://localhost:9090
